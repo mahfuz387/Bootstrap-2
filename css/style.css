@@ -1,0 +1,329 @@
+
+.Body{
+	height: 1200px;
+}
+
+navbar-default .navbar-nav>li>a { 
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover { 
+ 	color: #3AC9D9;
+}
+
+.slider{
+	background: url(../images/top_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+}
+
+.slider-content{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);	
+}
+
+.slider-content h1{
+color: #fff;
+text-transform: uppercase;
+font-weight:900;
+font-size: 40px;
+}
+
+ .btn-custom{
+ 	background: #3AC9D9;
+ 	color: #fff;
+ 	border-radius: 0;
+ 	border:1px solid #3AC9D9;
+     transform:all 0.4s ease;
+}
+
+.btn-custom:hover{
+	background:transparent; 
+ 	color: #3AC9D9;
+
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+
+}
+
+.navbar-default .navbar-brand {
+	color:#3AC9D9;
+    font-size: 25px;
+   font-weight: 900;
+    
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#3AC9D9;
+    font-size: 25px;
+}
+.navbar-default .navbar-brand span {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+	text-transform: uppercase;
+    color: #fff;
+}
+.aboutus-section{
+	padding: 70px 0;
+}
+.heading{
+	margin-bottom: 20px;
+
+}
+.heading h2{
+	text-transform: uppercase;
+	
+}
+.heading p{
+	max-width: 500px;
+	margin: 0 auto;
+
+}
+
+.about-us h3 {
+	position: relative;
+	
+}
+
+.about-us h3:after{
+  position: absolute;
+  content:"";
+  width: 0;
+  height: 5px;
+  background: rgba(58, 201, 217, 1);
+  bottom: -6px;
+  left: 0;
+  transform:all 0.4s ease;
+}	
+.aboutus-section:hover .about-us h3:after{
+	width:150px;
+	
+}
+.portfolio{
+	background-color: white;
+	margin-bottom:30px;
+	overflow: hidden; 
+	padding-bottom: 20px;
+	box-shadow: 0 4px 8px 0;
+
+}
+.portfolio-section{
+
+	padding: 30px 0;
+	background:#f4f4f4;
+}
+.portfolio-img{
+
+	position: relative;
+
+}
+
+.caption{
+
+
+}
+.caption b{
+	padding: 20PX;
+	text-transform: uppercase;
+
+	
+}
+.caption span{
+	text-transform: uppercase;
+	padding: 20PX;
+	
+}
+.btn-hover{
+	position: absolute;
+	top:50%;
+	left:50%;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0;
+	text-transform: uppercase;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	opacity: 0;
+
+}
+
+.portfolio-img:hover .btn-hover{
+	opacity: 1;
+
+}
+
+@media (max-width: 499px){
+	.portfolio-img img{
+		width:100%;
+	}
+
+}
+
+
+.services-section{
+	padding: 30px 0;
+	background:#FAFAFA
+
+}
+.services {
+	text-align: center;
+	border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+
+}
+
+.services:hover{
+	position: absolute;
+	content: "";
+	color: #fff;
+	text-align: center;
+	border: 1px solid #ddd;
+    padding: 10px;
+	background: #39C9DA;
+	transform:all 0.4s ease;
+
+}
+
+
+
+.services-img{
+
+}
+
+.services-img img{
+	margin: 0 auto;
+
+ 
+
+}
+
+
+
+.services h3{
+   
+   	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+
+}
+.services h3:after{
+	left:50%;
+  position: absolute;
+  content:"";
+  width: 0;
+  height: 2px;
+  background: rgba(58, 201, 217, 1);
+  bottom: -6px;
+  transform:all 0.4s ease;
+  transform: translate(-50%);
+ -webkit-transform: translate(-50%);
+ -moz-transform: translate(-50%);
+
+}	
+.services-section:hover .services h3:after{
+	width:75px;
+	
+}
+.services p{
+
+	text-align: center;
+
+}
+
+.services .btn-custom {
+
+	background: #4D4B4E;
+ 	color: #fff;
+ 	border-radius: 0;
+ 	border:1px solid #39C9DA;
+     transform:all 0.4s ease;
+}
+.services .btn-custom:hover{
+	background:transparent; 
+ 	color: #4D4B4E;
+
+}
+
+.contactus-section{
+	padding-bottom: 30px;
+
+
+}
+
+.contactinfo{
+
+}
+
+.contactinfo h3{
+
+	text-transform: uppercase;
+	position: relative;
+
+}
+.contactinfo h3:after{
+	right: : 50%;
+  position: absolute;
+  content:"";
+  width: 0px;
+  height: 2px;
+  background: rgba(58, 201, 217, 1);
+  bottom: -6px;
+  transform:all 0.4s ease;
+  display: inline-block;
+ 
+
+}
+.contactus-section:hover .contactinfo h3:after{
+	width:75px;
+	}
+.contactinfo h4{
+	text-transform: uppercase;
+
+}
+.contactinfo p{
+	max-width: 650%;
+}
+
+.contactinfo span{
+
+}
+
+
+.form{
+margin: 30px;
+}
+.form-group{
+	padding: 22px;
+}
+
+.subject{
+	padding: 20px;
+	width: 100;
+}
+.form-control{
+padding: 20px;
+width: 100%;
+}
+.footer{
+	background:#39C9DA; 
+	height:150%;
+	padding-bottom: 20px;
+
+}
+.footer p{
+	padding-top: 50px;
+
+
+}
