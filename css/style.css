@@ -74,7 +74,8 @@ font-size: 40px;
     color: #fff;
 }
 .aboutus-section{
-	padding: 70px 0;
+	padding-top: 70px;
+	padding-bottom:70px;
 }
 .heading{
 	margin-bottom: 20px;
@@ -90,6 +91,7 @@ font-size: 40px;
 
 }
 
+
 .about-us h3 {
 	position: relative;
 	
@@ -97,16 +99,17 @@ font-size: 40px;
 
 .about-us h3:after{
   position: absolute;
-  content:"";
-  width: 0;
-  height: 5px;
-  background: rgba(58, 201, 217, 1);
+  content:" ";
+  width:0;
+  height: 3px;
+  background: #3ac9d9;
   bottom: -6px;
   left: 0;
   transform:all 0.4s ease;
 }	
+
 .aboutus-section:hover .about-us h3:after{
-	width:150px;
+	width:120px;
 	
 }
 .portfolio{
@@ -179,21 +182,24 @@ font-size: 40px;
 .services {
 	text-align: center;
 	border: 1px solid #ddd;
-    padding: 10px;
-    position: relative;
+    padding: 20px;
+    
 
 }
 
 .services:hover{
-	position: absolute;
-	content: "";
-	color: #fff;
+	
+	
 	text-align: center;
-	border: 1px solid #ddd;
-    padding: 10px;
 	background: #39C9DA;
 	transform:all 0.4s ease;
+		color: rgb(255, 255, 255);
 
+}
+.services:hover .btn-custom{
+	
+	background: white;
+	color: black;
 }
 
 
@@ -257,6 +263,7 @@ font-size: 40px;
 }
 
 .contactus-section{
+	background: #F4F4F4;
 	padding-bottom: 30px;
 
 
@@ -266,29 +273,28 @@ font-size: 40px;
 
 }
 
-.contactinfo h3{
+.contactinfo h4{
 
 	text-transform: uppercase;
 	position: relative;
 
 }
-.contactinfo h3:after{
-	right: : 50%;
-  position: absolute;
-  content:"";
-  width: 0px;
-  height: 2px;
-  background: rgba(58, 201, 217, 1);
-  bottom: -6px;
-  transform:all 0.4s ease;
-  display: inline-block;
+.contactinfo h4:after{
+	position: absolute;
+    content: " ";
+    width: 0;
+    height: 3px;
+    background: #3ac9d9;
+    left: 0;
+    bottom: -6px;
+    transition: all 0.4s ease;
  
 
 }
-.contactus-section:hover .contactinfo h3:after{
+.contactus-section:hover .contactinfo h4:after{
 	width:75px;
 	}
-.contactinfo h4{
+.contactinfo h5{
 	text-transform: uppercase;
 
 }
@@ -300,30 +306,21 @@ font-size: 40px;
 
 }
 
-
 .form{
-margin: 30px;
-}
-.form-group{
-	padding: 22px;
-}
 
-.subject{
-	padding: 20px;
-	width: 100;
 }
-.form-control{
-padding: 20px;
-width: 100%;
+.form_custom{
+	margin-bottom: 30px;
+}
+.form_margin{
+	margin-left: -15px;
 }
 .footer{
-	background:#39C9DA; 
-	height:150%;
-	padding-bottom: 20px;
-
+	padding: 30px 0;
+    background: #3ac9d9;
+    
 }
-.footer p{
-	padding-top: 50px;
-
-
+.footer span {
+	color: white;
+	
 }
